@@ -1,0 +1,12 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+commands = { path = "../commands" }
+common = { path = "../common" }
+console_error_panic_hook = "0.1.7"
+frontend-common = { path = "../frontend-common" }
+leptos = { version = "0.6", features = ["csr", "nightly"] }
+serde = { version = "1.0", features = ["derive"] }

@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["macros", "common", "commands", "frontend-macros", "frontend-common", "frontend", "backend-macros", "backend-common", "backend"]

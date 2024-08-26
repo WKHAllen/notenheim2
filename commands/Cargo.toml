@@ -1,0 +1,9 @@
+[package]
+name = "commands"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }
+macros = { path = "../macros" }
+serde = { version = "1.0", features = ["derive"] }
